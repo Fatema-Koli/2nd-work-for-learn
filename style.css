@@ -1,0 +1,49 @@
+h1{
+   
+    color: palevioletred;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+}
+.half-width{
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    font-size: x-large;
+}
+.half-width img{
+    width: 100%;
+   
+}
+
+.bg-highlight{
+    background-image: url(image/header-bg.png);
+    height: 400px;
+    padding-bottom:10%;
+}
+.secound{
+    background-image: url("image/biography-bg.png");
+    height: 400px;
+    padding-bottom:10%;
+}
+.column img{
+    float: left;
+    width: 31%;
+    padding: 5px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 20px 20px 20 gray;
+}
+.third{
+    background-image: url("image/latest-work-bg.png");
+    height: 350px;
+
+}
+.fourth{
+    background-image: url("image/footer-bg.png");
+    height: 400px;
+
+}
