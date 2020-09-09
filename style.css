@@ -14,19 +14,31 @@ body{
     padding-left: 5%;
     font-size: x-large;
 }
+
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+
+}
 .half-width img{
     width: 100%;
+    height: 400px;
+    
    
 }
 
 .bg-highlight{
     background-image: url(image/header-bg.png);
-    height: 400px;
+    height: 430px;
     padding-bottom:10%;
 }
 .secound{
     background-image: url("image/biography-bg.png");
-    height: 400px;
+    height: 430px;
     padding-bottom:10%;
 }
 .column img{
@@ -45,5 +57,12 @@ body{
 .fourth{
     background-image: url("image/footer-bg.png");
     height: 400px;
+    text-align: center;
 
+}
+.box{
+    color: blue;
+    background-color: crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
